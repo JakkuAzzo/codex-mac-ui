@@ -1,0 +1,10 @@
+{
+  "claimBoundaries": [
+    "Visual capture does not prove backend state reflection.",
+    "Editor visibility does not prove workflow completion.",
+    "Screenshot walkthrough does not prove live workflow recording.",
+    "Fixture/mock state does not prove live product behavior.",
+    "One host proof does not prove another host.",
+    "Exact subset proof does not prove full reconstruction."
+  ]
+}

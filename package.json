@@ -1,0 +1,12 @@
+{
+  "name": "codex-mac-ui",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Reusable Codex/macOS UI automation and visual proof toolkit scaffold.",
+  "scripts": {
+    "check": "node --check scripts/capture-screenshot.mjs && node --check scripts/make-contact-sheet.mjs && node --check scripts/window-diagnostics.mjs && node --check scripts/app-readiness-check.mjs && node --check scripts/workflow-video-walkthrough.mjs",
+    "test": "npm run check"
+  },
+  "license": "UNLICENSED"
+}

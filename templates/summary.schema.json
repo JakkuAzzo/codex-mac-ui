@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Mac UI Proof Summary",
+  "type": "object",
+  "required": ["result", "classification", "generatedAt", "artifactFiles", "claimBoundaries"],
+  "properties": {
+    "result": { "type": "string" },
+    "classification": { "type": "string" },
+    "generatedAt": { "type": "string" },
+    "captureMethod": { "type": "string" },
+    "artifactFiles": { "type": "object" },
+    "claimBoundaries": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  }
+}

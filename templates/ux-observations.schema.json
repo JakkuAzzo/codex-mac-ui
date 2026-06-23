@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Mac UI UX Observations",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["id", "severity", "observation"],
+    "properties": {
+      "id": { "type": "string" },
+      "severity": {
+        "type": "string",
+        "enum": ["low", "medium", "high", "critical"]
+      },
+      "observation": { "type": "string" },
+      "evidencePath": { "type": "string" },
+      "recommendedAction": { "type": "string" }
+    }
+  }
+}

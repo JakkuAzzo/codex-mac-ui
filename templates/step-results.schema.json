@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Mac UI Step Results",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["stepId", "label", "actionAttempted", "result", "reason"],
+    "properties": {
+      "stepId": { "type": "string" },
+      "label": { "type": "string" },
+      "actionAttempted": { "type": "string" },
+      "screenshotPath": { "type": "string" },
+      "visualObservation": { "type": "object" },
+      "controlObservation": { "type": "object" },
+      "result": { "type": "string" },
+      "reason": { "type": "string" },
+      "recommendedNextAction": { "type": "string" }
+    }
+  }
+}
